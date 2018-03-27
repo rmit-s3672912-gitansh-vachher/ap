@@ -2,6 +2,15 @@ package com.rmit.advprog2.assignment2;
 
 import java.util.ArrayList;
 
+/*
+ * *
+
+ *
+ * @author rajiv.khushiram
+ 
+ */
+
+
 import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 public class Dependent extends User {
@@ -35,8 +44,7 @@ public class Dependent extends User {
 		super(name, status, p, age);
 		this.fatherObj = father;
 		this.motherObj = mother;
-		fatherObj.addChild(this);
-		motherObj.addChild(this);
+		
 		parenting = getParent();
 		//parenting.addParent(father);
 		//motherObj.addParent(mother);

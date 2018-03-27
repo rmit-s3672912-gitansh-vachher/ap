@@ -3,8 +3,15 @@ package com.rmit.advprog2.assignment2;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
 import sun.text.normalizer.CharTrie.FriendAgent;
 
+/*
+
+ *
+ * @author rajiv.khushiram
+ 
+ */
 public class User {
 	private String name;
 	private String picture;

@@ -2,7 +2,13 @@ package com.rmit.advprog2.assignment2;
 
 import java.util.ArrayList;
 import java.util.Scanner;
+/*
+*
 
+*
+* @author rajiv.khushiram
+
+*/
 public class Mininet {
 	public static ArrayList<User> allusers;
 	public static ArrayList<User> parentUsers;
@@ -11,7 +17,7 @@ public class Mininet {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		new InMemory();
-		start();
+		start(); // start application
 		//
 	}
 
@@ -27,7 +33,7 @@ public class Mininet {
 			case 1:
 				x = 1;
 				for (User userVar : allusers) {
-					System.out.println("Name: " + userVar.getName() + " Age " + userVar.getAge());
+					System.out.println("Name: " + userVar.getName() + " Age " + userVar.getAge() +"  Status:  " + userVar.getStatus());
 				}
 				x = 0;
 				break;
