@@ -129,6 +129,16 @@ public class Mininet {
 				}		
 				
 				break;
+			case 6:
+				System.out.println("Enter user Name User:");
+				String deltingUserName = scanner.next();
+				
+				User deletingUser = returnedUser(deltingUserName);
+			
+				// if deleting user is instance of Adult then delete 
+				
+				
+				break;
 			case 9:
 				System.out.println("Program has Terminated");
 				System.exit(0);
